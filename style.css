@@ -1,0 +1,174 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.body{
+    display: flex;
+    background: white;  
+}
+
+.btn{
+    cursor:pointer;
+    display:inline-block;
+    color:white;
+}
+
+.btn:hover{
+    opacity:0.7;
+}
+
+/*-------- Header ------------------------- */
+.header{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffff;
+}
+
+.pt-section { padding-top: 7rem; }
+
+/*-------- Navbar ---------------------------*/
+
+.navbar{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding:0;
+}
+
+.navbar-toggler:hover{
+    cursor:pointer;
+    background: dimgrey;  
+}
+
+.navbar-toggler:checked{
+display: none;
+}
+
+.navbar-toggler ul li:hover{
+    max-width: 100%;
+}
+
+.colorbarra{
+    background-color: #454545;
+}
+
+.img-logo{
+    width: 100px;
+}
+
+#menu ul li:hover{
+    background-color: dimgrey;
+    color:#ffff;
+}
+
+#menu ul li {
+    display: block;  
+}
+
+.titulo{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding:0;
+}
+
+.botones{
+    display: flex;
+    float: right;
+    align-items: center;
+    padding:0;
+}
+
+/*----------Carousel------------------------------*/
+
+.carousel-item img{
+     filter: brightness(50%);
+     }
+
+/*--------- Cards -------------------------------*/
+.card-img-top{
+    width: 100%;
+    object-fit:cover;
+} 
+
+/*------- Formulario Registro -------*/
+
+.dottedme{
+    border-bottom: 1px;
+    border-bottom-style: dotted;
+    font-weight: normal;
+}
+
+#nombre{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+#apellido{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+#mail{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+#cantidadTickets{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+#categoriaSelect{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+#btnEnviar {
+    width: 100%;
+    background: #96c93e;
+    border: 1px solid #96c93e;
+    color: #ffff;
+  }
+
+
+/*------- Footer -------------------*/
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #1B4F72 ;
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+    text-decoration: none;   
+}
+
+.d-flex ul li a:hover{
+    background-color:steelblue;
+   }
+
+/*-------- Botones ---------*/
+#btnBorrar {
+    width: 100%;
+    background: #96c93e;
+    border: 1px solid #96c93e;
+    color: #ffff;
+  }
+
+  #btnResumen {
+    width: 100%;
+    background: #96c93e;
+    border: 1px solid #96c93e;
+    color: #ffff;
+  } 
